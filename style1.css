@@ -34,14 +34,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(68, 68, 87);
+    background-color: #a01c16;
     color: azure;
     position: static;
     bottom: 0;
     width: 100%;
     height: 50px;
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menubar{
     height: 100%;
