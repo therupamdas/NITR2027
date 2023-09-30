@@ -10,3 +10,28 @@ h1{
     color: #a01c16;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.dept{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#headingdep{
+    width: 100%;
+}
+.department{
+    width: 40%;
+    border:solid 0.1px;
+    border-radius: 6px;
+    border-color: #a01c16;
+    background-color: #fbc67b;
+    padding: 1.5vh;
+    margin: 1vh;
+}
+.department:hover{
+    
+    background-color: #a01c16;
+}
+.department:hover a{
+    color: white;
+}
