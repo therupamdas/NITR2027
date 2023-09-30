@@ -85,7 +85,7 @@ footer{
     justify-content: center;
 } 
 
-.shop{
+.people{
     height: 100%;
     width: 100%;
     display: flex;
@@ -93,12 +93,12 @@ footer{
     justify-content: space-evenly;
     row-gap: 50px;
 }
-.sub{
+.p1{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.subtt{
+.t1{
     font-size: 2vw;
     font-weight: bold;
     color:rgb(255, 55, 20);
@@ -109,7 +109,18 @@ footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-.items{
+.t2{
+    font-size: 2vw;
+    font-weight: bold;
+    color:rgb(43, 20, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.person{
     width: 20vw;
     background-color: white;
     border: 2px solid rgb(240, 119, 20);
@@ -117,20 +128,19 @@ footer{
 
     color: black;
 }
-.items img{
+.person img{
     aspect-ratio: 1/1;
     transition: all ease 0.2s;
 }
-.items:hover img{
+.person:hover img{
     scale: 1.2;
 }
 
 
 
 #searchbar{
-    width: 40%;
-    height: 10%;
-    border: 2px solid white;
+    width: 30%;
+    border: 2.4px solid white;
     border-radius: 4px;
     display: flex;
     flex-wrap: wrap;
@@ -142,23 +152,23 @@ footer{
 }
 #searchbar select{
     background-color: rgb(255, 174, 107);
-    width: 10%;
+    width: 7%;
     aspect-ratio: 1/1;
     border: 0;
 }
 #searchbar input{
-    font-size: 1.2vw;
+    font-size: 1vw;
     border-width: 0;
     padding: 1%;
-    width: 78%;
+    width: 84%;
 }
 #searchbar button{
-    font-size: 1.2vw;
+    font-size: 1vw;
     background-color: rgb(255, 174, 107);
     color:white;
     border-width: 0;
     padding: 1%;
-    width:10%;
+    width:7%;
     aspect-ratio: 1/1;
 }
 #yt{
