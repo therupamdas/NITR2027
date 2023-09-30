@@ -129,6 +129,7 @@ footer{
 
 #searchbar{
     width: 40%;
+    height: 10%;
     border: 2px solid white;
     border-radius: 4px;
     display: flex;
@@ -146,15 +147,15 @@ footer{
     border: 0;
 }
 #searchbar input{
-    font-size: 70%;
+    font-size: 1.2vw;
     border-width: 0;
     padding: 1%;
     width: 78%;
 }
 #searchbar button{
-    font-size: 70%;
+    font-size: 1.2vw;
     background-color: rgb(255, 174, 107);
-    color:blueviolet;
+    color:white;
     border-width: 0;
     padding: 1%;
     width:10%;
