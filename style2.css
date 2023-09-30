@@ -20,7 +20,7 @@ h1{
     width: 100%;
 }
 .department{
-    width: 40%;
+    width: 40vw;
     border:solid 0.1px;
     border-radius: 6px;
     border-color: #a01c16;
