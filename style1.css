@@ -63,10 +63,10 @@ footer{
 .block:hover{
     border: 1px solid rgb(255, 255, 255);
 }
-.zoooom img{
+.face img{
     width: 100%;
 }
-.zoooom{
+.face{
     margin: 5%;
     aspect-ratio: 1/1;
     overflow: hidden;
